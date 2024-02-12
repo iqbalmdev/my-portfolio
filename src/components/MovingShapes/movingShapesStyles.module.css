@@ -1,0 +1,18 @@
+/* MovingShapes.css */
+.moving_shapes_container {
+  position: relative;
+}
+
+.moving-shape {
+  position: absolute;
+  animation: moveAnimation 3s infinite alternate;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
